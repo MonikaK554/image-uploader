@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button type="button">
+    <p>Udało się załadować zdjęcie. Adres URL obrazka to:</p>
+    <p th:text="${pathUrl}"></p>
+    <img th:src="${pathUrl}"/>
+
+</button>
+
+</body>
+</html>
